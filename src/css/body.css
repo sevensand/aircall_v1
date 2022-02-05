@@ -13,3 +13,19 @@ body {
   color: #333333;
   line-height: 1;
 }
+
+.infinteScroll {
+  height: 560px;
+  overflow: auto;
+  padding: 0 16px;
+  border: 1px solid rgba(140, 140, 140, 0.35);
+}
+.site-drawer-render-in-current-wrapper {
+  position: absolute;
+  width: 376px !important;
+  height: 666px !important;
+  z-index: 100;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .9);
+}
